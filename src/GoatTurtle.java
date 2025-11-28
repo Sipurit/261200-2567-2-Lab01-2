@@ -1,4 +1,4 @@
-public class SquareSpiral
+public class GoatTurtle
 
 {
 
@@ -7,16 +7,23 @@ public class SquareSpiral
     {
 
         Turtle bob = new Turtle();
-
-        for(int i=0;i<360;i++)
-
-        {
-
-            bob.forward(i*1.25);
-
-            bob.left(90.25);
-
-        }
+        bob.forward(100);
+        bob.right(90);
+        bob.forward(100);
+        bob.right(90);
+        bob.forward(100);
+        bob.right(90);
+        bob.forward(300);
+        bob.left(90);
+        bob.forward(100);
+        bob.left(90);
+        bob.forward(300);
+        bob.right(90);
+        bob.forward(100);
+        bob.right(90);
+        bob.forward(100);
+        bob.right(90);
+        bob.forward(200);
 
     }
 
